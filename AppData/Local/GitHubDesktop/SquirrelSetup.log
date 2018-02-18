@@ -1,0 +1,19 @@
+﻿2018-02-18 00:23:12> Program: Starting Squirrel Updater: --createShortcut GitHubDesktop.exe -l StartMenu,Desktop
+2018-02-18 00:23:12> ApplyReleasesImpl: About to create shortcuts for GitHubDesktop.exe, rootAppDir C:\Users\sudhakar\AppData\Local\GitHubDesktop
+2018-02-18 00:23:15> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\sudhakar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk
+2018-02-18 00:23:16> ApplyReleasesImpl: About to save shortcut: C:\Users\sudhakar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk (target C:\Users\sudhakar\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\sudhakar\AppData\Local\GitHubDesktop\app-1.0.13, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2018-02-18 00:23:17> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\sudhakar\Desktop\GitHub Desktop.lnk
+2018-02-18 00:23:17> ApplyReleasesImpl: About to save shortcut: C:\Users\sudhakar\Desktop\GitHub Desktop.lnk (target C:\Users\sudhakar\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\sudhakar\AppData\Local\GitHubDesktop\app-1.0.13, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2018-02-18 00:23:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2018-02-18 00:23:17> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2018-02-18 00:23:17> ApplyReleasesImpl: Examining Pin: Snipping Tool.lnk
+2018-02-18 00:23:18> ApplyReleasesImpl: File 'C:\Users\sudhakar\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Snipping Tool.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+2018-02-18 00:23:18> ApplyReleasesImpl: Examining Pin: Visual Studio 2012.lnk
+2018-02-18 00:24:11> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.0.13&env=production
+2018-02-18 00:24:12> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.0.13&env=production
+2018-02-18 00:24:13> CheckForUpdateImpl: Generated new staging user ID: ad87692e-5fe5-5eec-b9bd-c33d26fae0e4
+2018-02-18 00:24:14> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.0.13&env=production
+2018-02-18 00:24:17> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.0.13&env=production&id=GitHubDesktop&localVersion=1.0.13&arch=amd64
